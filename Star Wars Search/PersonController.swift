@@ -10,10 +10,13 @@ import UIKit
 
 private let baseURL = URL(string: "https://swapi.co/api/people")!
 
+@objcMembers // Make all members of this class exposed to Objc. But don't use
 class PersonController: NSObject {
     
+    @objc(sharedController)
     static let shared = PersonController()
     
+    @objc(searchForPeopleWithSearchTerm:completionBlock:)
     func searchForPeaople(with searchTerm: String, completion: @escaping ([IIIPerson]?, Error?) -> Void)
     {
         var components = URLComponents(url: baseURL, resolvingAgainstBaseURL: true)!

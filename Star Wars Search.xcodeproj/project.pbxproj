@@ -15,6 +15,7 @@
 		82B11BD421AC6DA1008D1C84 /* IIIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BD321AC6DA1008D1C84 /* IIIPerson.m */; };
 		82B11BD721AC6F0D008D1C84 /* PersonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BD621AC6F0D008D1C84 /* PersonController.swift */; };
 		82B11BDA21AC73A2008D1C84 /* IIIPersonSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BD921AC73A2008D1C84 /* IIIPersonSearchTableViewController.m */; };
+		82B11BDC21AC7507008D1C84 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BDB21AC7507008D1C84 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		82B11BD621AC6F0D008D1C84 /* PersonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonController.swift; sourceTree = "<group>"; };
 		82B11BD821AC73A2008D1C84 /* IIIPersonSearchTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIIPersonSearchTableViewController.h; sourceTree = "<group>"; };
 		82B11BD921AC73A2008D1C84 /* IIIPersonSearchTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIIPersonSearchTableViewController.m; sourceTree = "<group>"; };
+		82B11BDB21AC7507008D1C84 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				82B11BBD21AC6D5F008D1C84 /* AppDelegate.m */,
 				82B11BD821AC73A2008D1C84 /* IIIPersonSearchTableViewController.h */,
 				82B11BD921AC73A2008D1C84 /* IIIPersonSearchTableViewController.m */,
+				82B11BDB21AC7507008D1C84 /* PersonTableViewCell.swift */,
 				82B11BC221AC6D5F008D1C84 /* Main.storyboard */,
 				82B11BC721AC6D60008D1C84 /* LaunchScreen.storyboard */,
 				82B11BC521AC6D60008D1C84 /* Assets.xcassets */,
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B11BDC21AC7507008D1C84 /* PersonTableViewCell.swift in Sources */,
 				82B11BD421AC6DA1008D1C84 /* IIIPerson.m in Sources */,
 				82B11BDA21AC73A2008D1C84 /* IIIPersonSearchTableViewController.m in Sources */,
 				82B11BCC21AC6D60008D1C84 /* main.m in Sources */,
