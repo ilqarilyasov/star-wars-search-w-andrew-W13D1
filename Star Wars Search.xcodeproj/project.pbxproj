@@ -13,6 +13,7 @@
 		82B11BC621AC6D60008D1C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82B11BC521AC6D60008D1C84 /* Assets.xcassets */; };
 		82B11BC921AC6D60008D1C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82B11BC721AC6D60008D1C84 /* LaunchScreen.storyboard */; };
 		82B11BCC21AC6D60008D1C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BCB21AC6D60008D1C84 /* main.m */; };
+		82B11BD421AC6DA1008D1C84 /* IIIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B11BD321AC6DA1008D1C84 /* IIIPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		82B11BC821AC6D60008D1C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82B11BCA21AC6D60008D1C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82B11BCB21AC6D60008D1C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B11BD221AC6DA1008D1C84 /* IIIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIIPerson.h; sourceTree = "<group>"; };
+		82B11BD321AC6DA1008D1C84 /* IIIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIIPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		82B11BBB21AC6D5F008D1C84 /* Star Wars Search */ = {
 			isa = PBXGroup;
 			children = (
+				82B11BD221AC6DA1008D1C84 /* IIIPerson.h */,
+				82B11BD321AC6DA1008D1C84 /* IIIPerson.m */,
 				82B11BBC21AC6D5F008D1C84 /* AppDelegate.h */,
 				82B11BBD21AC6D5F008D1C84 /* AppDelegate.m */,
 				82B11BBF21AC6D5F008D1C84 /* ViewController.h */,
@@ -97,6 +102,7 @@
 		82B11BB121AC6D5F008D1C84 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = III;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Lambda School";
 				TargetAttributes = {
@@ -141,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82B11BD421AC6DA1008D1C84 /* IIIPerson.m in Sources */,
 				82B11BC121AC6D5F008D1C84 /* ViewController.m in Sources */,
 				82B11BCC21AC6D60008D1C84 /* main.m in Sources */,
 				82B11BBE21AC6D5F008D1C84 /* AppDelegate.m in Sources */,
