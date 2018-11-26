@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  IIIPersonSearchTableViewController.h
 //  Star Wars Search
 //
 //  Created by Ilgar Ilyasov on 11/26/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface IIIPersonSearchTableViewController : UITableViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
